@@ -14,6 +14,7 @@ function atmBalance(cashOut){
 atmBalance(25000);
 atmBalance(105000);
 
+// With prompt()
 function atmBalance1(){
     let cashOut1 = prompt("How much money do you want to retrieve?");
     
