@@ -2,6 +2,7 @@
 function dogsAge(humanAge){
     if(Number.isNaN(humanAge)){
         console.log("Invalid input!");
+        return "Invalid input!";
     }
     let dogsAge = humanAge * 7;
     return dogsAge;
@@ -13,6 +14,7 @@ function dogsAge(humanAge){
 function humanAge(dogsAge){
     if(Number.isNaN(dogsAge)){
         console.log("Invalid input!");
+        return "Invalid input!";
     }
     let humanAge = dogsAge / 7;
     return humanAge;

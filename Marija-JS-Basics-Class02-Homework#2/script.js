@@ -1,8 +1,12 @@
 let userInput = prompt("Enter the year: ");
 let convertedUserInput = Number(userInput);
 
-let year;
+if(Number.isNaN(convertedUserInput)){
+    alert("Invalid input!");
+}
+// let year;
 let zodiac = ((convertedUserInput-4)%12);
+
 
 console.log(zodiac);
 
