@@ -3,6 +3,7 @@ let convertedUserInput = Number(userInput);
 
 if(Number.isNaN(convertedUserInput)){
     alert("Invalid input!");
+    return "Invalid input!";
 }
 // let year;
 let zodiac = ((convertedUserInput-4)%12);
