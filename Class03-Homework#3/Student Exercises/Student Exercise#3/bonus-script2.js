@@ -1,4 +1,8 @@
 function calculateAGE(birthYear){
+    if(Number.isNaN(birthYear)){
+        // console.log("Invalid input!");
+        return "Invalid input!";
+    }
     const currentYear = new Date().getFullYear()
     let age;
     age = Math.abs(birthYear - currentYear);
