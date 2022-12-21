@@ -1,8 +1,10 @@
 
-function loopRange(start, end){
-    // let result = [];
-    for(let num = start; num<end; num++){
+for (let num = 1; num <= 20; num++) {
     console.log(num);
+    if (num % 2 === 0) {
+      console.log("\n");
+    } else if (num % 2 !== 0) {
+      console.log(" ");
     }
 }
-loopRange(1, 20);
+
