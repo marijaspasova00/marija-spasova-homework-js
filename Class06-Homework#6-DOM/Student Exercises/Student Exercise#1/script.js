@@ -1,0 +1,18 @@
+let firstDiv = document.querySelector("div");
+console.log(firstDiv);
+let allParagraphs = document.getElementsByTagName("p");
+console.log(allParagraphs);
+let lastDiv = document.getElementsByTagName("body")[0].lastElementChild.previousElementSibling;
+console.log(lastDiv); 
+let h3LastDiv = lastDiv.getElementsByTagName("h3")[0];
+console.log(h3LastDiv);
+let h1LastDiv = h3LastDiv.previousElementSibling;
+console.log(h1LastDiv);
+let paragrapheTextSecondDiv = document.getElementsByClassName("anotherDiv")[0].firstElementChild.innerText;
+console.log(paragrapheTextSecondDiv);
+let addText = document.querySelector("text").innerText += " text";
+console.log(addText);
+let changedh1 = h1LastDiv.innerText = "Changed h1!";
+console.log(changedh1);
+let changedh3 = h3LastDiv.innerText = "Changed h3!";
+console.log(changedh3);
